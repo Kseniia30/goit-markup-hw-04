@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    fill: var(--second-main);
 }
 .header-mail-icon:hover,
 .header-mail-icon:focus,
@@ -416,6 +417,7 @@ footer {
 }
 .clients-item {
     text-align: center;
+    padding: 16px 32px;
 }
 
 /*--------------------------------------PORTFOLIO-------------------------------------------*/
