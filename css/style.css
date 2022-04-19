@@ -223,6 +223,7 @@ footer {
     opacity: 10%;
     margin-right: 10px;
     text-align: center;
+    padding: 12px;
 }
 .ftcnt-item:hover,
 .ftcnt-item:focus {
@@ -383,14 +384,17 @@ footer {
     width: 44px;
     height: 44px;
     margin-right: 10px;
-
+    padding: 12px;
 }
 .team-connect-sending {
 
 }
+.team-connect-item:hover,
+.team-connect-item:focus {
+    background-color: var(--sending);
+} 
 .team-connect-icon:hover,
 .team-connect-icon:focus {
-    background-color: var(--sending);
     fill: var(--sending);
 }
 .team-connect-icon {
