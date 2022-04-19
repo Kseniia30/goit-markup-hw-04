@@ -9,6 +9,7 @@
     --second-back: #F5F4FA;
     --border-one: #ECECEC;
     --border-two: #EEEEEE;
+    --border-three: #AFB1B8;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -118,8 +119,15 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 10px;
     fill: var(--second-main);
 }
+.header-phone-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
 .header-mail-icon:hover,
-.header-mail-icon:focus {
+.header-mail-icon:focus,
+.header-phone-icon:hover,
+.header-phone-icon:focus {
     fill: var(--sending);
 }
 .header-contacts-item {
@@ -136,11 +144,11 @@ h1, h2, h3, h4, h5, h6, p {
 .header-nav-item:hover, 
 .header-nav-item:focus, 
 .header-contacts-item:hover, 
-.header-contacts-item:focus, {
+.header-contacts-item:focus {
     color: var(--sending);
 }
 .header-active {
-    color: var(--sending);
+    color: var(--send-two);
 }
 
 
@@ -150,6 +158,8 @@ footer {
     background-color: var(--back);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.footer-container {
     display: flex;
 }
 .footer-part-first {
@@ -160,6 +170,7 @@ footer {
 }
 .footer-list {
     padding-left: 0;
+    width: 231px;
 }
 .footer-addrerss {
     font-style: normal;
@@ -190,8 +201,6 @@ footer {
     display: block;
 }
 .footer-connection {
-    margin-top: auto;
-    margin-bottom: auto;
     margin-left: 70px;
 }
 .ftcnt-head {
@@ -200,11 +209,26 @@ footer {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main);
+    margin-bottom: 20px;
 }
 .ftcnt-list {
     display: flex;
 }
 .ftcnt-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: var(--main);
+    opacity: 10%;
+    margin-right: 10px;
+}
+.ftcnt-item:hover,
+.ftcnt-item:focus {
+    background-color: var(--sending);
+}
+.footer-connect-icon {
+    width: 20px;
+    height: 20px;
 }
 
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
@@ -256,6 +280,16 @@ footer {
 .details-item {
     width: 270px;
     margin-right: 30px;
+}
+.details-icon-container {
+    padding: 25px 100px;
+    text-align: center;
+    background-color: var(--second-back);
+    margin-bottom: 30px;
+}
+.details-icon {
+    width: 70px;
+    height: 70px;
 }
 .details-head {
     font-family: 'Roboto';
@@ -316,6 +350,7 @@ footer {
     background-color: var(--main);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
 }
 .name {
     font-weight: 500;
@@ -331,25 +366,54 @@ footer {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .team-connection {
 
 }
 .team-connect-list {
     display: flex;
+    justify-content: center;
 }
 .team-connect-item {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
 
 }
 .team-connect-sending {
 
 }
-.team-connect-sending:hover,
-.team-connect-sending:focus {
-    color: var(--sending);
+.team-connect-icon:hover,
+.team-connect-icon:focus {
     background-color: var(--sending);
     fill: var(--sending);
+}
+.team-connect-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*-------------------------------------CLIENTS------------------------*/
+
+.clients {
+}
+.clients-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+.clients-item {
+    background-color: ;
 }
 
 /*--------------------------------------PORTFOLIO-------------------------------------------*/
@@ -439,4 +503,23 @@ footer {
     display: flex;
 }
 .clients-item {
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--border-three);
+
+}
+.clients-sending {
+}
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: var(--border-three);
+}
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--sending);
+}
+.clients-sending: {
+    border: 1px solid var(--sending);
 }
