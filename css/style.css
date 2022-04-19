@@ -228,11 +228,13 @@ footer {
 .ftcnt-item:hover,
 .ftcnt-item:focus {
     background-color: var(--sending);
+    opacity: 1;
 }
 .footer-connect-icon {
     width: 20px;
     height: 20px;
     fill: var(--main);
+    opacity: 1;
 }
 
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
@@ -395,7 +397,7 @@ footer {
 } 
 .team-connect-icon:hover,
 .team-connect-icon:focus {
-    fill: var(--sending);
+    fill: var(--main);
 }
 .team-connect-icon {
     width: 20px;
