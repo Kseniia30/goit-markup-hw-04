@@ -132,7 +132,9 @@ h1, h2, h3, h4, h5, h6, p {
 .header-nav-item:hover, 
 .header-nav-item:focus, 
 .header-contacts-item:hover, 
-.header-contacts-item:focus {
+.header-contacts-item:focus,
+.header-mail-icon:hover,
+.header-mail-icon:focus {
     color: var(--sending);
 }
 .header-active {
