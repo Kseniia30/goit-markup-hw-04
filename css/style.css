@@ -235,6 +235,7 @@ footer {
     height: 20px;
     fill: var(--main);
     opacity: 1;
+    position: absolute;
 }
 
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
@@ -398,6 +399,7 @@ footer {
 .team-connect-icon:hover,
 .team-connect-icon:focus {
     fill: var(--main);
+    opacity: 1;
 }
 .team-connect-icon {
     width: 20px;
