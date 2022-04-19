@@ -112,6 +112,12 @@ h1, h2, h3, h4, h5, h6, p {
 .header-contact-li {
  
 }
+.header-mail-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--second-main);
+}
 .header-contacts-item {
     font-family: 'Roboto';
     font-weight: 500;
@@ -140,6 +146,10 @@ footer {
     background-color: var(--back);
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+}
+.footer-part-first {
+
 }
 .footer-web {
     color: var(--main);
@@ -175,14 +185,37 @@ footer {
     margin-bottom: 9px;
     display: block;
 }
+.footer-connection {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70px;
+}
+.ftcnt-head {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main);
+}
+.ftcnt-list {
+    display: flex;
+}
+.ftcnt-item {
+}
 
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
 
 .main-section {
     background-color: var(--back);
+    background-image: url('../images/bgimghw4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+}
+.main-container {
+
 }
 .main-header {
     color: var(--main);
@@ -296,6 +329,24 @@ footer {
     text-align: center;
     margin-bottom: 30px;
 }
+.team-connection {
+
+}
+.team-connect-list {
+    display: flex;
+}
+.team-connect-item {
+
+}
+.team-connect-sending {
+
+}
+.team-connect-sending:hover,
+.team-connect-sending:focus {
+    color: var(--sending);
+    background-color: var(--sending);
+    fill: var(--sending);
+}
 
 /*--------------------------------------PORTFOLIO-------------------------------------------*/
 
@@ -367,4 +418,21 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+}
+
+/*--------------------------------------CLIENTS-------------------------------------------*/
+
+.clients {
+}
+.clients-head {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.clients-list {
+    display: flex;
+}
+.clients-item {
 }
