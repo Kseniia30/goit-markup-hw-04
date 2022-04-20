@@ -216,6 +216,10 @@ footer {
 .ftcnt-list {
     display: flex;
 }
+.footer-connect {
+    fill: var(--main);
+    fill-opacity: 1;
+}
 .ftcnt-item {
     width: 44px;
     height: 44px;
@@ -226,23 +230,23 @@ footer {
     text-align: center;
     padding: 12px;
 }
-.ftcnt-item:hover,
-.ftcnt-item:focus {
-    background-color: var(--sending);
-    opacity: 1;
-}
 .footer-connect-icon {
     width: 20px;
     height: 20px;
     fill: var(--main);
     fill-opacity: 1;
 }
+.ftcnt-item:hover,
+.ftcnt-item:focus {
+    background-color: var(--sending);
+    opacity: 1;
+}
 
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
 
 .main-section {
     background-color: var(--back);
-    background-image: url('../images/bgimghw4.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bgimghw4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -396,6 +400,7 @@ footer {
 .team-connect-item:focus {
     background-color: var(--sending);
     opacity: 1;
+    fill: var(--main);
 } 
 .team-connect-icon:hover,
 .team-connect-icon:focus {
@@ -428,6 +433,23 @@ footer {
 .clients-item {
     text-align: center;
     padding: 16px 32px;
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--border-three);
+    text-align: center;
+}
+.clients-sending {
+
+}
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: var(--border-three);
+}
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--sending);
 }
 
 /*--------------------------------------PORTFOLIO-------------------------------------------*/
@@ -464,6 +486,7 @@ footer {
 .second-buttons:focus {
     background-color: var(--sending);
     color: var(--main);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }  
 .portfolio-menu {
     text-decoration: none;
@@ -487,6 +510,9 @@ footer {
     margin-top: 30px;
     margin-left: 30px;
 }
+.portfolio-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-list-head {
     color: var(--main-text-color);
     font-weight: 700;
@@ -500,37 +526,4 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
-}
-
-/*--------------------------------------CLIENTS-------------------------------------------*/
-
-.clients {
-}
-.clients-head {
-    color: var(--main-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-}
-.clients-list {
-    display: flex;
-}
-.clients-item {
-    margin-right: 30px;
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--border-three);
-    text-align: center;
-}
-.clients-sending {
-}
-.clients-icon {
-    width: 106px;
-    height: 60px;
-    fill: var(--border-three);
-}
-.clients-icon:hover,
-.clients-icon:focus {
-    fill: var(--sending);
 }
