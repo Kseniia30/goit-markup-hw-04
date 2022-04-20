@@ -445,11 +445,16 @@ footer {
 .clients-icon {
     width: 106px;
     height: 60px;
-    fill: var(--border-three);
+    fill: var(--iconcolor);
 }
 .clients-icon:hover,
 .clients-icon:focus {
     fill: var(--sending);
+    fill-opacity: 1;
+}
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--sending)
 }
 
 /*--------------------------------------PORTFOLIO-------------------------------------------*/
