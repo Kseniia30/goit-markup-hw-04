@@ -10,6 +10,7 @@
     --border-one: #ECECEC;
     --border-two: #EEEEEE;
     --border-three: #AFB1B8;
+    --iconcolor: #AFB1B8;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -123,13 +124,13 @@ h1, h2, h3, h4, h5, h6, p {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--second-main);
+    fill: currentColor;
 }
 .header-mail-icon:hover,
 .header-mail-icon:focus,
 .header-phone-icon:hover,
 .header-phone-icon:focus {
-    fill: var(--sending);
+    fill: currentColor;
 }
 .header-contacts-item {
     font-family: 'Roboto';
@@ -394,6 +395,7 @@ footer {
 .team-connect-item:hover,
 .team-connect-item:focus {
     background-color: var(--sending);
+    opacity: 1;
 } 
 .team-connect-icon:hover,
 .team-connect-icon:focus {
@@ -403,6 +405,7 @@ footer {
 .team-connect-icon {
     width: 20px;
     height: 20px;
+    fill: var(--iconcolor);
 }
 
 /*-------------------------------------CLIENTS------------------------*/
