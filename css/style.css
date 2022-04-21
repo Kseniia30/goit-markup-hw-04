@@ -221,6 +221,7 @@ footer {
     width: 100%;
     height: 100%;
     text-align: center;
+    fill: var(--main);
 }
 .ftcnt-item {
     width: 44px;
@@ -235,7 +236,8 @@ footer {
 .footer-connect-icon {
     width: 20px;
     height: 20px;
-    fill: var(--footericon);
+    fill: currentColor;
+    opacity: 1;
     text-align: center;
 }
 .footer-connect:hover,
