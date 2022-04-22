@@ -244,6 +244,7 @@ footer {
 .footer-connection-item:hover,
 .footer-connection-item:active {
     background-color: var(--sending);
+    opacity: 1;
 }
 
 
