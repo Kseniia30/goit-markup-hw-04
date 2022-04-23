@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--main-text-color);
     margin-right: 50px;
     text-decoration: none;
-    
+
 }
 .header-contacts-list {
     align-items: center;
@@ -245,6 +245,8 @@ footer {
 /*------------------------------------FIRST MAIN SECTION-----------------------------------*/
 
 .main-section {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: var(--back);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bgimghw4.jpg');
     background-position: center;
