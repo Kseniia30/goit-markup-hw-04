@@ -74,10 +74,10 @@ h1, h2, h3, h4, h5, h6, p {
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--border-one) ;
+    border-bottom: 1px solid var(--border-one);
 }
 .header-conteiner {
-    display: flex;
+    display: inline-flex;
 }
 .header-navigation {
     align-items: center;
@@ -106,14 +106,14 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--main-text-color);
     margin-right: 50px;
     text-decoration: none;
+    
 }
 .header-contacts-list {
+    align-items: center;
     padding: 0;
-    margin-left: 333px;
-    margin: auto;
+    margin: 0 auto;
 }
 .header-contact-li {
- 
 }
 .header-mail-icon {
     width: 16px;
@@ -224,22 +224,16 @@ footer {
     margin-right: 10px;
     border-radius: 50%;
     text-align: center;
-    background-color: var(--main);
-    opacity: 0.1;
+    background: rgba(255, 255, 255,0.1);
 }
 .footer-connect-sending {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: var(--main);
 
 }
 .footer-connect-icon {
     width: 44px;
     height: 44px;
     padding: 12px;
-    fill: currentColor;
-
+    fill: var(--main);
 }
 .footer-connection-item:hover,
 .footer-connection-item:active {
@@ -393,11 +387,11 @@ footer {
     justify-content: center;
 }
 .team-connect-item {
-    border-radius: 50%;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
     margin-right: 10px;
-    padding: 12px;
+    text-align: center;
 }
 .team-connect-sending {
 
@@ -414,8 +408,10 @@ footer {
     opacity: 1;
 }
 .team-connect-icon {
-    width: 20px;
-    height: 20px;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
     fill: var(--iconcolor);
 }
 
