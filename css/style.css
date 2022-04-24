@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+img {
+    max-width: 100%;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -52,9 +55,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.last {
-    margin-right: 0;
-}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5, h6, p {
 /*--------------------------------------HEADER-------------------------------------------*/
 
 .header {
-    height: 80px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--border-one);
@@ -81,6 +80,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .header-navigation {
     align-items: center;
+
+}
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .web {
     font-family: 'Raleway';
@@ -96,7 +100,9 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--black);
 }
 .header-navigation-list {
-    padding: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 .header-nav-item {
     font-family: 'Roboto';
@@ -110,8 +116,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .header-contacts-list {
     align-items: center;
-    padding: 0;
-    margin: 0 auto;
+    margin-left: auto;
 }
 .header-contact-li {
 }
@@ -127,12 +132,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 10px;
     fill: currentColor;
 }
-.header-mail-icon:hover,
-.header-mail-icon:focus,
-.header-phone-icon:hover,
-.header-phone-icon:focus {
-    fill: currentColor;
-}
 .header-contacts-item {
     font-family: 'Roboto';
     font-weight: 500;
@@ -140,6 +139,10 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     color: var(--second-main);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-contact-li+.header-contact-li {
     margin-left: 50px;
@@ -149,6 +152,12 @@ h1, h2, h3, h4, h5, h6, p {
 .header-contacts-item:hover, 
 .header-contacts-item:focus {
     color: var(--sending);
+}
+.header-mail-icon:hover,
+.header-mail-icon:focus,
+.header-phone-icon:hover,
+.header-phone-icon:focus {
+    fill: currentColor;
 }
 .header-active {
     color: var(--send-two);
@@ -296,8 +305,10 @@ footer {
     margin-right: 30px;
 }
 .details-icon-container {
-    padding: 25px 100px;
-    text-align: center;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     background-color: var(--second-back);
     margin-bottom: 30px;
 }
@@ -433,7 +444,6 @@ footer {
 }
 .clients-list {
     display: flex;
-    justify-content: center;
 }
 .clients-item {
     margin-right: 30px;
@@ -532,4 +542,11 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+}
+
+
+
+/*---------------------IMPORTANT-------------*/
+.last {
+    margin-right: 0;
 }
