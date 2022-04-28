@@ -100,8 +100,7 @@ img {
     color: var(--black);
 }
 .header-navigation-list {
-    padding-top: 32px;
-    padding-bottom: 32px;
+
 
 }
 .header-nav-item {
@@ -112,6 +111,8 @@ img {
     color: var(--main-text-color);
     margin-right: 50px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .header-contacts-list {
@@ -360,7 +361,6 @@ footer {
 
 .team-section {
     background-color: var(--second-back);
-    height: 648px;
 }
 .team-head {
     color: var(--main-text-color);
